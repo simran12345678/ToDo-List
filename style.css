@@ -1,0 +1,147 @@
+body{
+    background: #c4c0c0;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ .smiley {
+     height:80px;
+    width:100%  ;
+    
+ }
+.smiley .smiley1{
+    top:0;
+    margin-left:35%;
+    right:0;
+    bottom:0; 
+    font-size: 50px;
+}
+.smiley h3{
+    margin-left:43%;
+margin-top:-100px;
+font-size: 40px;
+color: darkblue;
+}
+.smiley .smiley2{
+    top:0;
+    margin-left:60%;
+    right:0;
+    bottom:0; 
+    margin-top:-100px;
+    font-size: 50px;
+}
+ .container{
+    position:absolute;
+    height: 25pc;
+    width:25pc;
+    margin:auto;
+    top:0px;
+    right: 0;
+    left:0;
+    bottom:0;
+    background: rgb(20, 47, 167);
+   border-radius: 10px;
+    
+}
+.container:hover{
+    box-shadow: 5px 5px white;
+}
+.add-txt{
+    position:absolute;
+    height: 5px;
+    width: 55%;
+    margin:auto;
+    top:20px;
+    right: 0;
+    left: 0;
+    outline: none;
+    bottom:none;
+    padding :20px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+.addbtn{
+    position:absolute;
+    height:48px;
+    width: 50px;
+    margin:auto;
+    top:20px;
+    right:54px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color:black;
+}
+.addbtn:hover{
+background-color: rgb(55, 42, 112);
+    color:white;
+}
+.list{
+    position: absolute;
+    height:75%;
+    width:100%;
+    margin: auto;
+    right: 0;
+    left:0;
+    bottom: 0;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+.list::-webkit-scrollbar{
+    -webkit-appearance: none;
+    appearance: none;
+}
+.element{
+    position: relative;
+    height: fit-content;
+    width:55%;
+    right:0;
+    text-align: left;
+    transition: .2s;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-right: 80px;
+    word-wrap: break-word;
+    background: rgb(176, 206, 233);
+}
+.element:hover{
+    transform: scale(1.1);
+}
+.done{
+    position: absolute;
+    margin: auto;
+    top:0;
+    height:25px;
+    bottom:0;
+    right:70px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(55, 42, 112);
+    border:none;
+    color:white;
+}
+.done:hover{
+    transform: scale(1.1);
+    color:black;
+}
+
+.dele{ 
+    position: absolute;
+    margin: auto;
+    top:0;
+    height:25px;
+    bottom:0;
+    right:10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(55, 42, 112);
+    border:none;
+    color:white;
+}
+.dele:hover{
+    transform: scale(1.1);
+    color:black;
+}
